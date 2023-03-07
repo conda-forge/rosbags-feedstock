@@ -1,11 +1,11 @@
-About rosbags
-=============
+About rosbags-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rosbags-feedstock/blob/main/LICENSE.txt)
 
 Home: https://gitlab.com/ternaris/rosbags
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rosbags-feedstock/blob/main/LICENSE.txt)
 
 Summary: Pure Python library to read, modify, convert, and write rosbag files.
 
