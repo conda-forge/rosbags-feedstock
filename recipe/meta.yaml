@@ -1,5 +1,5 @@
 {% set name = "rosbags" %}
-{% set version = "0.9.13" %}
+{% set version = "0.9.17" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/rosbags-{{ version }}.tar.gz
-  sha256: a3e6bed79d8ee49d0e2bf998df016d4c1e2a36e0910753b5c39fe3a5b652efa0
+  sha256: 3cabd531b01cdae58c953b855d15c29b1d1040d27bbb69f9b443498839677e14
 
 build:
   noarch: python
