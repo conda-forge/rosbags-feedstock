@@ -28,6 +28,7 @@ requirements:
     - numpy
     - ruamel.yaml
     - zstandard
+    - typing-extensions
 
 test:
   imports:
