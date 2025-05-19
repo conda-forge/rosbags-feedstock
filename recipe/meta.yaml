@@ -1,5 +1,5 @@
 {% set name = "rosbags" %}
-{% set version = "0.10.9" %}
+{% set version = "0.10.10" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,12 +8,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/rosbags-{{ version }}.tar.gz
-  sha256: 38fc1999370f6c173765c827b230f7486137fdd43c134b116374ad0fe264a135
+  sha256: e5e99d2ad5650972c9cf0ab248e676f643859788c5bd273c5b24b35562783c12
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
   entry_points:
     - rosbags-convert = rosbags.convert.__main__:main
 
