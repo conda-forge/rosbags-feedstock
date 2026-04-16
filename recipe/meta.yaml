@@ -1,5 +1,5 @@
 {% set name = "rosbags" %}
-{% set version = "0.11.0" %}
+{% set version = "0.11.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/rosbags-{{ version }}.tar.gz
-  sha256: e73bbe79a15d7f539653375278ffca6c48e56b5c2ada4a4531de0b17737cbc46
+  sha256: e121ed86818587544e0ba197e0aa95424b655fc262bc9530bffb5a1bec803965
 
 build:
   noarch: python
@@ -30,6 +30,7 @@ requirements:
     - ruamel.yaml
     - zstandard
     - typing-extensions
+    - apsw
 
 test:
   imports:
