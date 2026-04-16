@@ -30,6 +30,7 @@ requirements:
     - ruamel.yaml
     - zstandard
     - typing-extensions
+    - apsw
 
 test:
   imports:
