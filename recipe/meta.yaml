@@ -1,5 +1,5 @@
 {% set name = "rosbags" %}
-{% set version = "0.11.4" %}
+{% set version = "0.11.5" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/rosbags-{{ version }}.tar.gz
-  sha256: 63485c95b782e6aebac4253941d4936ad2593b0be1a3d427fefdba78934dc9fc
+  sha256: f6fc16e52af1f383209010557c92933d4ac30a1b376c97e215b71244b26304d8
 
 build:
   noarch: python
