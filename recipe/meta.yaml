@@ -1,6 +1,5 @@
 {% set name = "rosbags" %}
 {% set version = "0.11.7" %}
-{% set python_min = "3.10" %}
 
 package:
   name: {{ name|lower }}
@@ -31,6 +30,7 @@ requirements:
     - zstandard
     - typing-extensions
     - apsw
+    - backports.zstd
 
 test:
   imports:
